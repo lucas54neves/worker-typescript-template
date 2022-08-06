@@ -1,0 +1,18 @@
+{
+  "name": "worker-typescript-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lucas54neves/worker-typescript-template",
+  "author": "Lucas Neves <lucas54neves@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.14.1",
+    "typescript": "^4.7.4",
+    "wrangler": "^2.0.24"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx wrangler dev"
+  }
+}
